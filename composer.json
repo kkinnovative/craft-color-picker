@@ -1,0 +1,39 @@
+{
+    "name": "kkinnovative/craft-color-picker",
+    "description": "Integrate tovic/color-picker to the Color field",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "color-picker",
+        "color",
+        "swatch"
+    ],
+    "support": {
+        "docs": "https://github.com/kkinnovative/craft-color-picker",
+        "issues": "https://github.com/kkinnovative/craft-color-picker/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "KK Innovative",
+            "homepage": "https://www.kkinnovative.co.th"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "kkinnovative\\colorpicker\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Color Picker",
+        "handle": "kkinnovative-color-picker",
+        "class": "kkinnovative\\colorpicker\\ColorPicker"
+    }
+}
